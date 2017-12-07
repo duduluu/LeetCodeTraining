@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp", "csharp\CSharp.csp
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "JavaScript", "javascript\JavaScript.njsproj", "{30B2AEF9-E0BB-462A-AD02-F82204AFA96C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "About", "About", "{32F05122-C265-4686-BE5E-AD98F17DCB20}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
