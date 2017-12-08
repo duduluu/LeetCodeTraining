@@ -35,6 +35,9 @@
     <Compile Include="0\01\Two Sum.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="0\02\Add Two Numbers.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -42,6 +45,7 @@
   <ItemGroup>
     <Folder Include="0\" />
     <Folder Include="0\01\" />
+    <Folder Include="0\02\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
