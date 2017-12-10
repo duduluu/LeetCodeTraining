@@ -41,6 +41,9 @@
     <Compile Include="0\03\Longest Substring Without Repeating Characters.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="0\04\Median of Two Sorted Arrays.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -50,6 +53,7 @@
     <Folder Include="0\01\" />
     <Folder Include="0\02\" />
     <Folder Include="0\03\" />
+    <Folder Include="0\04\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
