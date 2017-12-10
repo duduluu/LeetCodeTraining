@@ -12,10 +12,10 @@ var findMedianSortedArrays = function (nums1, nums2) {
   let i2 = 0;
 
   while (index < lengthCombine) {
-    if (nums1.length <= i1) {
+    if (nums1[i1] === undefined) {
       numsCombine[index] = nums2[i2];
       i2++;
-    } else if (nums2.length <= i2) {
+    } else if (nums2[i2] === undefined) {
       numsCombine[index] = nums1[i1];
       i1++;
     } else if (nums1[i1] < nums2[i2]) {

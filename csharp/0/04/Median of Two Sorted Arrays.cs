@@ -12,10 +12,10 @@ namespace LeetCodeTraining.CSharp._0._04 {
             int i2 = 0;
             
             while (index < numsCombine.Length) {
-                if (nums1.Length <= i1) {
+                if (nums1.Length == i1) {
                     numsCombine[index] = nums2[i2];
                     i2++;
-                } else if (nums2.Length <= i2) {
+                } else if (nums2.Length == i2) {
                     numsCombine[index] = nums1[i1];
                     i1++;
                 } else if (nums1[i1] < nums2[i2]) {
